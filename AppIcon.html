@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Gift</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+
+      font-family: Arial, sans-serif;
+      
+    }
+
+    body{
+      background-color: #f2f2f2;
+    }
+
+    .Heading{
+      text-align: center;
+    }
+
+    h3{
+      text-align: center;
+    }
+
+    .Container{
+      text-align: center;
+      margin-top: 20px;
+      /* display:none; */
+
+    }
+
+    .gift{
+      height:200px;
+      cursor: pointer;
+      
+    }
+
+    .poem-container{
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      display:none;
+    }
+
+    #poem{
+      font-size: 18px;
+      font-style: italic;
+    color: #666;
+     
+    }
+
+    
+  </style>
+  
+</head>
+<body>
+  
+  <div class="Heading">
+    <h1>A happy birthday! Neha didi</h1>
+  </div>
+  <h3>
+    I hope you have a wonderful day! Now click on the below gift box to open your gift.
+  </h3>
+  
+  <div class="Container">
+    <img src="gift.jpg" alt="gift" class="gift" id="gift">
+    <div class="poem-container" id="poem-container">
+      <p id="poem" >
+        "Life's journey, a canvas so fine,<br>Each year, a brushstroke divine.<br>May your path be lit with love and light,<br>And your heart, forever shine so bright."
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
